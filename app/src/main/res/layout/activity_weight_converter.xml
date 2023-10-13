@@ -88,7 +88,7 @@
                 android:id="@+id/GramsValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="55dp"
                 android:text=""
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
                 app:layout_constraintStart_toEndOf="@+id/textView4" />
