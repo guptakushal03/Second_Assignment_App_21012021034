@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="70dp"
-                android:text="Enter a value :\n    (In Mts)"
+                android:text="Enter a value :\n    (In Kms)"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="70dp"
-                android:text="Length in Kms : "
+                android:text="Length in Mts : "
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/convertBtn" />
 
@@ -85,10 +85,10 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
             <TextView
-                android:id="@+id/KgsValue"
+                android:id="@+id/MtsValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="60dp"
                 android:text=""
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView4"
                 app:layout_constraintStart_toEndOf="@+id/textView4" />
@@ -106,7 +106,7 @@
                 android:id="@+id/InchesValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="44dp"
                 android:text=""
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
                 app:layout_constraintStart_toEndOf="@+id/textView8" />
