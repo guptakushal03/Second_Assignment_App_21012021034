@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="70dp"
-                android:text="Enter a value :\n    (In Kbs)"
+                android:text="Enter a value :\n    (In GBs)"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -29,7 +29,7 @@
                 android:id="@+id/DataValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:ems="8"
+                android:ems="5"
                 android:inputType="text"
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView2"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -60,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="70dp"
-                android:text="Data size in Kbs : "
+                android:text="Data size in MBs : "
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/convertBtn" />
 
@@ -70,22 +70,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="35dp"
                 android:layout_marginTop="40dp"
-                android:text="Data size in Mbs : "
+                android:text="Data size in TBs : "
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
             <TextView
-                android:id="@+id/textView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="40dp"
-                android:text="Data size in Tbs : "
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-            <TextView
-                android:id="@+id/KbsValue"
+                android:id="@+id/MBsValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
@@ -94,22 +84,13 @@
                 app:layout_constraintStart_toEndOf="@+id/textView4" />
 
             <TextView
-                android:id="@+id/MbsValue"
+                android:id="@+id/TBsValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dp"
                 android:text=""
                 app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
                 app:layout_constraintStart_toEndOf="@+id/textView7" />
-
-            <TextView
-                android:id="@+id/TbsValue"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="50dp"
-                android:text=""
-                app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
-                app:layout_constraintStart_toEndOf="@+id/textView8" />
 
             <Button
                 android:id="@+id/gobackBtn"
@@ -119,7 +100,7 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
