@@ -13,56 +13,67 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="100dp">
+            android:padding="70dp">
 
-            <Button
-                android:id="@+id/LengthBtn"
+            <TextView
+                android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Length Converter"
+                android:text="Choose the type of converter :"
+                android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
+                android:id="@+id/LengthBtn"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
+                android:text="Length Converter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView"
+                android:layout_marginTop="40dp"/>
+
+            <Button
                 android:id="@+id/WeightBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
                 android:text="Weight Converter"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/LengthBtn"
-                android:layout_marginTop="50dp"/>
+                android:layout_marginTop="40dp"/>
 
             <Button
                 android:id="@+id/TempBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
                 android:text="Temperature Converter"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/WeightBtn"
-                android:layout_marginTop="50dp" />
+                android:layout_marginTop="40dp" />
 
             <Button
                 android:id="@+id/DataBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
                 android:text="Data Storage Conversion"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/TempBtn"
-                android:layout_marginTop="50dp"/>
+                android:layout_marginTop="40dp"/>
 
             <Button
                 android:id="@+id/SpeedBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="210dp"
+                android:layout_height="60dp"
                 android:text="Speed Converter"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/DataBtn"
-                android:layout_marginTop="50dp"/>
+                android:layout_marginTop="40dp"/>
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
